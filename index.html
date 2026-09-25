@@ -15,7 +15,6 @@
       --accent: #2458b8;
       --max: 1160px;
     }
-
     * { box-sizing: border-box; }
     html { scroll-behavior: smooth; }
 
@@ -413,7 +412,6 @@
     }
   </style>
 </head>
-
 <body>
   <nav>
     <div class="wrap nav-inner">
@@ -438,7 +436,6 @@
         My focus is turning model capability into reliable software: measurable behavior,
         explicit failure handling, and human control where it matters.
       </p>
-
       <div class="hero-actions">
         <a class="btn primary" href="#work">Selected work</a>
         <a class="btn" href="https://github.com/samarthsoni3002" target="_blank" rel="noreferrer">GitHub ↗</a>
@@ -476,7 +473,7 @@
             <h2>Systems, experiments, and products.</h2>
             <p class="section-copy">
               A small set of projects chosen for depth: production reliability, model implementation,
-              evaluation, and end-to-end product delivery.
+              evaluation, automation, and end-to-end product delivery.
             </p>
           </div>
         </div>
@@ -485,7 +482,6 @@
           <div class="featured-media">
             <img src="assets/leaddesk-overview.png" alt="LeadDesk dashboard showing inbound leads, qualification and pipeline status" />
           </div>
-
           <div class="featured-body">
             <div>
               <div class="project-type">Applied AI · Product</div>
@@ -496,7 +492,6 @@
                 deterministic application logic handles qualification, budget thresholds, ownership,
                 duplicate handling, and approval state.
               </p>
-
               <div class="tags">
                 <span class="tag">Gemini</span>
                 <span class="tag">FastAPI</span>
@@ -506,19 +501,52 @@
                 <span class="tag">Structured outputs</span>
                 <span class="tag">Human-in-the-loop</span>
               </div>
-
               <div class="hero-actions" style="margin-top:20px;">
                 <a class="btn primary" href="https://github.com/samarthsoni3002/lead_desk" target="_blank" rel="noreferrer">View repository ↗</a>
-                <a class="btn" href="#leaddesk-notes">Architecture notes ↓</a>
               </div>
             </div>
-
             <div id="leaddesk-notes" class="feature-list">
               <div><strong>Problem:</strong> incoming leads are manually read, qualified, routed, and followed up.</div>
               <div><strong>AI:</strong> extraction, service classification, clarification questions, and reply drafting.</div>
               <div><strong>Deterministic logic:</strong> evidence validation, qualification, budget rules, ownership, approvals.</div>
               <div><strong>Safety:</strong> prompt-injection resistance, grounded evidence, unsupported-service safeguards.</div>
               <div><strong>Workflow:</strong> receive → understand → qualify → route → respond → follow up.</div>
+            </div>
+          </div>
+        </article>
+
+        <article class="featured">
+          <div class="featured-media">
+            <img src="assets/taskpilot-extraction.png" alt="TaskPilot extracting actionable tasks from a business message and automatically syncing them to Notion" />
+          </div>
+          <div class="featured-body">
+            <div>
+              <div class="project-type">AI Automation · Product</div>
+              <h3>TaskPilot — Message-to-Notion task automation</h3>
+              <p>
+                Built a lightweight automation workflow that converts unstructured emails, meeting notes,
+                Slack messages, and client requests into structured action items, persists them locally,
+                and automatically syncs new tasks into a configured Notion database.
+              </p>
+              <div class="tags">
+                <span class="tag">Qwen</span>
+                <span class="tag">Hugging Face</span>
+                <span class="tag">FastAPI</span>
+                <span class="tag">SQLite</span>
+                <span class="tag">Notion API</span>
+                <span class="tag">Pydantic</span>
+                <span class="tag">Structured extraction</span>
+              </div>
+              <div class="hero-actions" style="margin-top:20px;">
+                <a class="btn primary" href="https://github.com/samarthsoni3002/task_pilot" target="_blank" rel="noreferrer">View repository ↗</a>
+              </div>
+            </div>
+            <div id="taskpilot-notes" class="feature-list">
+              <div><strong>Problem:</strong> actionable work gets buried inside everyday business communication.</div>
+              <div><strong>AI:</strong> extracts tasks, assignees, deadlines, priority, and category from unstructured text.</div>
+              <div><strong>Reliability:</strong> validates model output before persistence and downstream synchronization.</div>
+              <div><strong>Date safety:</strong> exact dates sync to Notion; vague deadlines are preserved instead of guessed.</div>
+              <div><strong>Workflow:</strong> paste message → extract → validate → persist → automatically sync to Notion.</div>
             </div>
           </div>
         </article>
@@ -641,12 +669,10 @@
             <h3>Machine Learning</h3>
             <p>Python, PyTorch, scikit-learn, deep learning, generative modeling, NLP, computer vision, evaluation.</p>
           </div>
-
           <div class="stack-card">
             <h3>Applied AI</h3>
             <p>Large language model workflows, structured outputs, retrieval, prompt design, human approval, evaluation, agents.</p>
           </div>
-
           <div class="stack-card">
             <h3>Engineering</h3>
             <p>FastAPI, Flask, React, TypeScript, AWS, APIs, SQLite, Git, distributed training, mixed precision, model serving.</p>
@@ -663,7 +689,6 @@
           I’m open to applied AI / ML engineering roles, research engineering work, and selective freelance projects
           where I can own a meaningful technical problem end to end.
         </p>
-
         <div class="hero-actions" style="justify-content:center;">
           <a class="btn primary" href="mailto:samarthsoni3002@gmail.com">Email me</a>
           <a class="btn" href="Samarth_Soni_Resume.pdf" target="_blank" rel="noreferrer">Resume ↗</a>
